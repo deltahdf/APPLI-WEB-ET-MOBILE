@@ -4,10 +4,6 @@ author:
 - deltahdf
 --- 
 
-## Cahier des charges
-
-Ici vous décrivez les fonctionnalités souhaitées et celles effectivement mises en oeuvre. Avec un diagramme UML des cas d'usage et des maquettes des vues souhaitées et des captures d'écran de ce qui a été réalisé.
-
 ### Cas d'usage
 
 
@@ -37,7 +33,7 @@ u --> C
 u --> AU
 u --> DGU
 u --> CG
-u --> DU
+u --> DU 
 @enduml
 ```
 
