@@ -1,0 +1,11 @@
+### Creation de groupe
+
+
+DELETE http://localhost:3000/api/groups/10/1
+x-access-token: eyJhbGciOiJIUzI1NiJ9.aGFpdGFtQGdtYWlsLmNvbWk.cdI6QaxP9jYkIOEGiOy6t5sYE81SMt1Fx19NvhLNuFA
+Content-Type: 'application/json'
+
+{ 
+ }
+
+
