@@ -1,10 +1,7 @@
 ---
 title: Projet React 
 author:  
-- EL HAJJI Fahd Amine
-HOUNA Haitam
-LOK-AYBA Ilyas
-SALLOUH Mahdi
+- deltahdf
 --- 
 
 ## Cahier des charges
