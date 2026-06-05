@@ -1,0 +1,65 @@
+.group-members-container {
+    position: absolute;
+    top: 250px;
+    left: 1430px;
+    width: 410px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .group-members-container h3 {
+    background: #075E54;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .group-members-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .group-member-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .group-member-item:last-child {
+    border-bottom: none;
+  }
+  
+  .group-member-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .group-member-info {
+    flex-grow: 1;
+  }
+  
+  .group-member-name {
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  

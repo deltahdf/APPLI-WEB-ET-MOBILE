@@ -1,0 +1,72 @@
+.options-container {
+  position: absolute;
+  top: 10px;
+  left: 1430px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 410px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.options-container h2 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.options-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.options-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options-button:hover {
+  background-color: #128C7E;
+}
+
+.options-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #d9534f; 
+}
+
+.logout-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c9302c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.logout-button:hover {
+  background-color: black;
+}

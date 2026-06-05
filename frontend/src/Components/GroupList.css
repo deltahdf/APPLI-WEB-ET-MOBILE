@@ -1,0 +1,102 @@
+.group-list {
+    position: absolute;
+    top: 10px;
+    left: 720px;
+    width: 700px; 
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.group-list h2 {
+    background: #075E54;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.group-list ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.group-creation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+.group-creation input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.create-button {
+    background-color: #34B7F1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+    background-color: #128C7E;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.group-item:last-child {
+    border-bottom: none;
+}
+
+.group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.group-info {
+    flex-grow: 1;
+}
+
+.group-name {
+    font-weight: bold;
+    color: #888; 
+}
+
+.group-actions {
+    display: flex;
+    align-items: center;
+}
+
+.action-button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #128C7E;
+}
