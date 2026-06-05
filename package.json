@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  }
+}
